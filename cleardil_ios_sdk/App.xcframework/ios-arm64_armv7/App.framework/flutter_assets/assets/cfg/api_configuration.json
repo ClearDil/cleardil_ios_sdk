@@ -1,0 +1,4 @@
+{
+  "api_url_prod": "https://api.cleardil.com/v1",
+  "api_url_sdbx": "https://sandbox.cleardil.com/v1"
+}
