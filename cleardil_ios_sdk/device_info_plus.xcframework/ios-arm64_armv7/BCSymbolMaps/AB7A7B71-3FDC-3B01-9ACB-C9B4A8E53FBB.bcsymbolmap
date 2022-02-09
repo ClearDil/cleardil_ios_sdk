@@ -1,7 +1,7 @@
 BCSymbolMap Version: 2.0
-Apple clang version 12.0.0 (clang-1200.0.32.29)
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk
-iPhoneOS14.4.sdk
+Apple clang version 13.0.0 (clang-1300.0.29.30)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk
+iPhoneOS15.2.sdk
 /Users/abdelhafidsefiane/workspace-flutter/alpha-cd/buildForCocoaP/Release/iphoneos/Pods.build/Release-iphoneos/device_info_plus.build/DerivedSources/device_info_plus_vers.c
 /Users/abdelhafidsefiane/workspace-flutter/alpha-cd/kyc/.ios/Pods
 __OBJC_METACLASS_RO_$_PodsDummy_device_info_plus
@@ -61,6 +61,6 @@ __OBJC_METACLASS_RO_$_FLTDeviceInfoPlusPlugin
 __OBJC_$_INSTANCE_METHODS_FLTDeviceInfoPlusPlugin
 __OBJC_$_PROP_LIST_FLTDeviceInfoPlusPlugin
 __OBJC_CLASS_RO_$_FLTDeviceInfoPlusPlugin
-/Users/abdelhafidsefiane/Dev/Tools/flutter/.pub-cache/hosted/pub.dartlang.org/device_info_plus-2.2.0/ios/Classes/FLTDeviceInfoPlusPlugin.m
-Dev/Tools/flutter/.pub-cache/hosted/pub.dartlang.org/device_info_plus-2.2.0/ios/Classes/FLTDeviceInfoPlusPlugin.m
+/Users/abdelhafidsefiane/.pub-cache/hosted/pub.dartlang.org/device_info_plus-2.2.0/ios/Classes/FLTDeviceInfoPlusPlugin.m
+.pub-cache/hosted/pub.dartlang.org/device_info_plus-2.2.0/ios/Classes/FLTDeviceInfoPlusPlugin.m
 /Users/abdelhafidsefiane
