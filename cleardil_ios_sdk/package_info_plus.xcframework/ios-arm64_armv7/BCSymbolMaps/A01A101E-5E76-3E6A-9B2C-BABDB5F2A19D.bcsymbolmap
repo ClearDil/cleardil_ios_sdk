@@ -2,7 +2,7 @@ BCSymbolMap Version: 2.0
 Apple clang version 13.0.0 (clang-1300.0.29.30)
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk
 iPhoneOS15.2.sdk
-/Users/seniuus/Workspace/cleardil-sdk/kyc/build-coco/Release/iphoneos/Pods.build/Release-iphoneos/package_info_plus.build/DerivedSources/package_info_plus_vers.c
+/Users/seniuus/Workspace/cleardil-sdk/kyc/build/Release/iphoneos/Pods.build/Release-iphoneos/package_info_plus.build/DerivedSources/package_info_plus_vers.c
 /Users/seniuus/Workspace/cleardil-sdk/kyc/ios/Pods
 +[FLTPackageInfoPlusPlugin registerWithRegistrar:]
 -[FLTPackageInfoPlusPlugin handleMethodCall:result:]

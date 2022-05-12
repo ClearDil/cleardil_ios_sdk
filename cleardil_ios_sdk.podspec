@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'cleardil_ios_sdk'
-  s.version          = '1.3.0'
+  s.version          = '1.3.1'
   s.summary          = 'A short description of cleardil_ios_sdk.'
 
 # This description is used to generate tags and improve search results.
@@ -24,13 +24,13 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://reference.cleardil.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AbdelSefiane' => 'abdel.sefiane@gmail.com' }
-  s.source           = { :git => 'https://github.com/ClearDil/cleardil_ios_sdk.git', :tag => '1.3.0' }
+  s.source           = { :git1 => 'https://github.com/ClearDil/cleardil_ios_sdk.git', :tag => '1.3.1' }
 
   s.ios.deployment_target = '9.0'
  
   s.source_files = 'cleardil_ios_sdk/Classes/*'
   
   s.dependency 'Flutter', '~> 2.5'
-  s.vendored_frameworks = 'cleardil_ios_sdk/permission_handler.xcframework',  'cleardil_ios_sdk/device_info_plus.xcframework',  'cleardil_ios_sdk/App.xcframework', 'cleardil_ios_sdk/FlutterPluginRegistrant.xcframework', 'cleardil_ios_sdk/camera.xcframework' , 'cleardil_ios_sdk/path_provider.xcframework'
+  s.vendored_frameworks = 'cleardil_ios_sdk/permission_handler.xcframework',  'cleardil_ios_sdk/device_info_plus.xcframework',  'cleardil_ios_sdk/App.xcframework', 'cleardil_ios_sdk/FlutterPluginRegistrant.xcframework', 'cleardil_ios_sdk/camera.xcframework' , 'cleardil_ios_sdk/path_provider_ios.xcframework', 'cleardil_ios_sdk/package_info_plus.xcframework'
 
 end
