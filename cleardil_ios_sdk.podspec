@@ -31,6 +31,6 @@ TODO: Add long description of the pod here.
   s.source_files = 'cleardil_ios_sdk/Classes/*'
   
   s.dependency 'Flutter', '~> 2.5'
-  s.vendored_frameworks = 'cleardil_ios_sdk/permission_handler.xcframework',  'cleardil_ios_sdk/device_info_plus.xcframework',  'cleardil_ios_sdk/App.xcframework', 'cleardil_ios_sdk/FlutterPluginRegistrant.xcframework', 'cleardil_ios_sdk/camera.xcframework' , 'cleardil_ios_sdk/path_provider.xcframework'
+  s.vendored_frameworks = 'cleardil_ios_sdk/permission_handler.xcframework',  'cleardil_ios_sdk/device_info_plus.xcframework',  'cleardil_ios_sdk/App.xcframework', 'cleardil_ios_sdk/FlutterPluginRegistrant.xcframework', 'cleardil_ios_sdk/camera.xcframework' , 'cleardil_ios_sdk/path_provider_ios.xcframework', 'cleardil_ios_sdk/package_info_plus.xcframework'
 
 end
