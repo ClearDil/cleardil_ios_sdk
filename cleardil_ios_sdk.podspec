@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'cleardil_ios_sdk'
-  s.version          = '1.2.0'
+  s.version          = '1.3.0'
   s.summary          = 'A short description of cleardil_ios_sdk.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://reference.cleardil.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'AbdelSefiane' => 'abdel.sefiane@gmail.com' }
-  s.source           = { :git => 'https://github.com/ClearDil/cleardil_ios_sdk.git', :tag => '1.2.0' }
+  s.source           = { :git => 'https://github.com/ClearDil/cleardil_ios_sdk.git', :tag => '1.3.0' }
 
   s.ios.deployment_target = '9.0'
  

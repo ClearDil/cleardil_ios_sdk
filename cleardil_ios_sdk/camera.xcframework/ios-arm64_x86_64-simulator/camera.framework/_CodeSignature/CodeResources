@@ -10,23 +10,59 @@
 		</data>
 		<key>Headers/CameraPlugin_Test.h</key>
 		<data>
-		3HIzBgGib5u4NsrEda2p8wA8x94=
+		DVM2UvVuFNoO9HcGgcnYIm2JSqk=
+		</data>
+		<key>Headers/CameraProperties.h</key>
+		<data>
+		QdApeliL6PgbfeBzTl1B2AuYVhc=
+		</data>
+		<key>Headers/FLTCam.h</key>
+		<data>
+		UAV02ViQpDxNcTrYvlaLSIgi7PE=
+		</data>
+		<key>Headers/FLTCam_Test.h</key>
+		<data>
+		Ph/7V20/BbtY13grDI6SP1Q4gls=
+		</data>
+		<key>Headers/FLTSavePhotoDelegate.h</key>
+		<data>
+		vxSw7kkeWo1uTpNIUHLscdCgO3o=
+		</data>
+		<key>Headers/FLTSavePhotoDelegate_Test.h</key>
+		<data>
+		dbidtQoMmTgZOyjx4OsmUxxoiK8=
+		</data>
+		<key>Headers/FLTThreadSafeEventChannel.h</key>
+		<data>
+		v9r7p5A+S03dHHT9aCz7JGCMBAE=
 		</data>
 		<key>Headers/FLTThreadSafeFlutterResult.h</key>
 		<data>
-		MqEnVYyNncIsjs6WjX/oikPmGCQ=
+		NXwjZ8BB8bLzpvguls3/nlKA0hM=
+		</data>
+		<key>Headers/FLTThreadSafeMethodChannel.h</key>
+		<data>
+		2Zw+iVWKow/Bfe3AyFrMw+weLKs=
+		</data>
+		<key>Headers/FLTThreadSafeTextureRegistry.h</key>
+		<data>
+		r+f92qhPcpNn0OH0sdTUUv5dXOI=
+		</data>
+		<key>Headers/QueueUtils.h</key>
+		<data>
+		r72smLzzu9OEiD/1aQQCwCCq0Rc=
 		</data>
 		<key>Headers/camera-umbrella.h</key>
 		<data>
-		uHQlHDidWGA4TDDdG1JUz2f00Hg=
+		znPNSKYyIr2NE2oVVb+Hl9lcMIg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xySI2NF7TjpEEkqWZmuVRlF0Xkw=
+		NjX5oIiHzAdsW2Rp2vwUdoVSabE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		Awlt9JaNgLi3yFXMvdwxxkcW6rY=
+		rgCoPCZgmPTfXjuT4RL5Eu8KcVY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -46,44 +82,143 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3HIzBgGib5u4NsrEda2p8wA8x94=
+			DVM2UvVuFNoO9HcGgcnYIm2JSqk=
 			</data>
 			<key>hash2</key>
 			<data>
-			C3XG0tRsIiwelDNWmdbSCP3+D+sF4QvUiT7oEYSYn/Y=
+			lHCh+cJLOofSU/DPyVXOz0cehOu1ywyTLrlvwkJllUU=
+			</data>
+		</dict>
+		<key>Headers/CameraProperties.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QdApeliL6PgbfeBzTl1B2AuYVhc=
+			</data>
+			<key>hash2</key>
+			<data>
+			JULZm9ZfaqUlQUyElrdbUvL5kwnPcfWDgEYe/H1Qm1Q=
+			</data>
+		</dict>
+		<key>Headers/FLTCam.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UAV02ViQpDxNcTrYvlaLSIgi7PE=
+			</data>
+			<key>hash2</key>
+			<data>
+			v4Lv7zp4cn63zrjYhpwFqqPWQQLDT5yW5oZk6QN0v04=
+			</data>
+		</dict>
+		<key>Headers/FLTCam_Test.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ph/7V20/BbtY13grDI6SP1Q4gls=
+			</data>
+			<key>hash2</key>
+			<data>
+			BzGasqgMozelIkexacWCIJhOH+l9Ah3YjAnnmVx61B0=
+			</data>
+		</dict>
+		<key>Headers/FLTSavePhotoDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vxSw7kkeWo1uTpNIUHLscdCgO3o=
+			</data>
+			<key>hash2</key>
+			<data>
+			ihddU8AOhKiKq7SuXk4U8eyPGelDuMnamILegf/U7bk=
+			</data>
+		</dict>
+		<key>Headers/FLTSavePhotoDelegate_Test.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dbidtQoMmTgZOyjx4OsmUxxoiK8=
+			</data>
+			<key>hash2</key>
+			<data>
+			SjTZnQQtyw6bhZ8LXSelP2LiSvS9Y8GEkaEEaOtIp+g=
+			</data>
+		</dict>
+		<key>Headers/FLTThreadSafeEventChannel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v9r7p5A+S03dHHT9aCz7JGCMBAE=
+			</data>
+			<key>hash2</key>
+			<data>
+			6ctHhX8Gfj5pck7Ikqxtwxwfbws8/R3iUadARJIAxTc=
 			</data>
 		</dict>
 		<key>Headers/FLTThreadSafeFlutterResult.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MqEnVYyNncIsjs6WjX/oikPmGCQ=
+			NXwjZ8BB8bLzpvguls3/nlKA0hM=
 			</data>
 			<key>hash2</key>
 			<data>
-			s3FqTY4J3pmHEbUDUALORvBCaxMfbc8hsCeD15/V+PU=
+			ahKrtFWP6I7JP77p4xosD9RSqnFOzEIkIdFn8oux8KQ=
+			</data>
+		</dict>
+		<key>Headers/FLTThreadSafeMethodChannel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2Zw+iVWKow/Bfe3AyFrMw+weLKs=
+			</data>
+			<key>hash2</key>
+			<data>
+			aTvdkmdm48HDJ/++NT3KgJBC9dbd1CjPL3AcoqzaYbQ=
+			</data>
+		</dict>
+		<key>Headers/FLTThreadSafeTextureRegistry.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			r+f92qhPcpNn0OH0sdTUUv5dXOI=
+			</data>
+			<key>hash2</key>
+			<data>
+			o4lgVTAOFp3KjCOWRQl0/e/UjjfLdzb7Qzr37uj+aNs=
+			</data>
+		</dict>
+		<key>Headers/QueueUtils.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			r72smLzzu9OEiD/1aQQCwCCq0Rc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q4Rp0ZE4xlEbXxb0qYLcc0KpjGZ88Y6LjAFIQNr84rs=
 			</data>
 		</dict>
 		<key>Headers/camera-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uHQlHDidWGA4TDDdG1JUz2f00Hg=
+			znPNSKYyIr2NE2oVVb+Hl9lcMIg=
 			</data>
 			<key>hash2</key>
 			<data>
-			8pH8zj8eZanMPRlLLoXmO3vxqzBsrtcvCtjgk5N52Pg=
+			/tNJSazqQgsykG7mrCqE9snIQx0/DWTUO9dMtv2K75U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Awlt9JaNgLi3yFXMvdwxxkcW6rY=
+			rgCoPCZgmPTfXjuT4RL5Eu8KcVY=
 			</data>
 			<key>hash2</key>
 			<data>
-			tBLC0F3zoXcq+96RPkff4Ygzc2notmso6YwloduOCag=
+			K5k0OFDypvApOWO8oqL5AKEFF4hPKt6upTElT3BlEk8=
 			</data>
 		</dict>
 	</dict>

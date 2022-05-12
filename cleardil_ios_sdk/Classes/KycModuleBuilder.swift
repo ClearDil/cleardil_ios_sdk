@@ -7,11 +7,13 @@ import Foundation
 public class KycModuleBuilder {
 
     private var _sdkToken: String?
+    private var _verification: Bool?
     private var _documentType: [KycModule.AllowedDocument]?
     private var _env: KycModule.Environment?
     
     public init (){
-        _documentType = []
+        _documentType = [];
+        _verification = false;
     }
 
     public func withSdkToken(sdkToken: String) ->KycModuleBuilder{
@@ -38,10 +40,15 @@ public class KycModuleBuilder {
         self._env = env;
         return self;
     }
+    
+    public func withVerification() -> KycModuleBuilder{
+        self._verification = true;
+        return self;
+    }
 
     public func build()-> KycModule{
         let module: KycModule
-        module = KycModule(sdkToken: self._sdkToken!, documentType:self._documentType!, env: self._env!);
+        module = KycModule(sdkToken: self._sdkToken!, documentType:self._documentType!, env: self._env!, verification: self._verification!);
         return module;
     }
 

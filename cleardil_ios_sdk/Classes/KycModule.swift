@@ -4,21 +4,24 @@ import FlutterPluginRegistrant
 public class KycModule {
     
     var SDK_TOKEN_CHANNEL: String = "cleardil.sdk/kyc.channel";
+    var SDK_ENGINE_NAME: String = "kyc_sdk_engine";
     
     var _flutterEngine : FlutterEngine?
     var _flutterViewController: FlutterViewController?
     var _env: Environment?
     var _sdkToken: String?
+    var _verification: Bool?
     var documentType: [AllowedDocument]
     
-    init(sdkToken: String, documentType: [AllowedDocument], env: Environment) {
+    init(sdkToken: String, documentType: [AllowedDocument], env: Environment, verification: Bool) {
         self._sdkToken=sdkToken;
         self.documentType=documentType;
         self._env=env;
+        self._verification=verification;
     }
     
     public func start(_ view: UIViewController) {
-        self._flutterEngine = FlutterEngine(name: "com.cleardil.kyc.sdk", project: nil)
+        self._flutterEngine = FlutterEngine(name: SDK_ENGINE_NAME, project: nil)
         self._flutterEngine?.run(withEntrypoint: nil)
         GeneratedPluginRegistrant.register(with: self._flutterEngine!)
         if let flutterEngine = self._flutterEngine {
@@ -34,6 +37,8 @@ public class KycModule {
                 result(self.listDocumentToStr());
             } else if(call.method == "getEnvironment"){
                 result(self.getEnvironment());
+            } else if(call.method == "getVerification"){
+                result(self._verification);
             } else {
                 print("Unrecognized method name: \(call.method)")
           }
